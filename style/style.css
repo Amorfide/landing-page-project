@@ -20,11 +20,9 @@ ul {
 
 .logo-left {
     font-size: 24px;
-    margin: 1%;
 }
 
 .right-links {
     display: flex;
-    gap: 32px;
-    margin: 1%;
+    gap: 24px;
 }
