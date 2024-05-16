@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     padding: 0;
+    overflow-x: hidden;
 }
 
 ul {
@@ -39,7 +40,7 @@ ul {
     flex-wrap: wrap;
     padding-bottom: 5%;
     padding-top: 5%;
-    gap: 3%;
+    gap: 10%;
     padding-left: 20%;
     padding-right: 20%;
 }
@@ -75,16 +76,15 @@ h1 {
 
 .hero-image {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     color: #E5E7EB;
     background-color: gray;
-    text-align: center;
-    width: 520px;
-    height: 220px;
 }
 
-
+.hero-image img {
+    max-width: 540px;
+    height: 320px;
+}
 
 h2 {
     text-align: center;
