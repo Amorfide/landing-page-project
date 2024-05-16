@@ -22,30 +22,14 @@ ul {
 }
 
 .logo-left {
-    display: flex;
-    gap: 10px;
-}
-
-.logo-left h4 {
     font-size: 24px;
-    padding: 0;
-    margin: 0 auto;
-    color:#F9FAF8;
-}
-
-a {
-    text-decoration: none;
-}
-
-.logo-left img {
-    width: 25px;
-    height: auto;
 }
 
 .right-links {
     display: flex;
     gap: 24px;
 }
+
 
 .hero-section {
     display: flex;
