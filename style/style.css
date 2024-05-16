@@ -16,6 +16,7 @@ ul {
     align-items: center;
     background-color: #1F2837;
     gap: 30%;
+    flex-wrap: wrap;
 }
 
 .logo-left {
@@ -25,4 +26,30 @@ ul {
 .right-links {
     display: flex;
     gap: 24px;
+}
+
+
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    background-color: #1F2837;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 50%;
+}
+
+.hero-header {
+    font-size: 48px;
+    color: #F9FAF8;
+    max-width: 50%;
+}
+
+.hero-image {
+    color: #E5E7EB;
 }
