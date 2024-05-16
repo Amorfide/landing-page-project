@@ -15,13 +15,16 @@ ul {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2837;
+    gap: 30%;
 }
 
 .logo-left {
     font-size: 24px;
+    margin: 1%;
 }
 
 .right-links {
     display: flex;
-    gap: 24px;
+    gap: 32px;
+    margin: 1%;
 }
